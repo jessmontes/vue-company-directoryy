@@ -6,7 +6,7 @@ const brand = ref('Fake Company Directory')
 
 
 <template>
-  <nav class="bg-blue-500">
+  <nav>
     <div class="wrapper">
       <div class="brand">
         <span class="brand-title">{{ brand }}</span>
@@ -18,6 +18,15 @@ const brand = ref('Fake Company Directory')
       </div>
     </div>
   </nav>
-  
-
 </template>
+
+
+
+<style scoped lang="postcss">
+nav {
+  @apply bg-white text-blue-300 h-20 ;
+  .wrapper {
+    @apply flex justify-between items-center;
+  }
+}
+</style>
