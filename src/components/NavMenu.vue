@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue';
-const brand = ref('Fake Company Directory') 
+const brand = ref(' J.M Company') 
 </script>
 
 
@@ -24,7 +24,7 @@ const brand = ref('Fake Company Directory')
 
 <style scoped lang="postcss">
 nav {
-  @apply bg-white text-blue-300 h-20 flex;
+  @apply bg-stone-800 text-blue-300 h-20 flex;
   .wrapper {
     @apply container mx-auto flex w-full items-center justify-between;
     .brand {
@@ -44,3 +44,4 @@ nav {
   }
 }
 </style>
+
